@@ -10,6 +10,7 @@ while run:
     if o == '1':
         x = 0
         o = int(input('How many clicks?'))
+        print("You have 6 seconds before the spam starts")
         sleep(6)
         while x != o:
             x += 1
