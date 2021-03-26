@@ -14,8 +14,8 @@ while run:
         i = 0
         option = int(input('How many clicks?'))
         
-        print("You have 6 seconds before the spam starts")
-        sleep(6)
+        print("You have 10 seconds before the spam starts")
+        sleep(10)
         
         while i != option:
             i += 1
@@ -31,8 +31,8 @@ while run:
         num = int(input('Number of messages to send:'))
         msg = input('Content of messages:')
         
-        print("You have 6 seconds before the spam starts")
-        sleep(6)
+        print("You have 10 seconds before the spam starts")
+        sleep(10)
         
         while i < num:
             i += 1
